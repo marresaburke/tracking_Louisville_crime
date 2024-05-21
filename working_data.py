@@ -1,3 +1,3 @@
 import pandas as pd
 
-teen_data = pd.read_excel('Final-Project/NR#23-13717.xlsx', index_col = 0)
+teen_data = pd.read_csv('teen_crimes_edit.csv', index_col = 0)
