@@ -1,1 +1,10 @@
 Here"s are the notes I will keep about the data as I explore the data. 
+
+I started by getting my self familiar with the data. Trying to figure out and rationalize what the data's coding system and how this would play into how I explore and manipulate the data. 
+Cleaning up the Columns - each included "Arrest" some multiple times.
+
+Figuring out how all my computer, github and visual code work together is rewarding. 
+
+When playing around with grouping dates, I realized I may be looking at how many teens were arrested on a particular day. 
+Leading the question, what may have been going on to cause such large arrest on particular days? 
+Between two days in August of 2023, over 150 teenagers were arrested by LMPD. What was going on? 
