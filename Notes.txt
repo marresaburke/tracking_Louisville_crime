@@ -8,3 +8,13 @@ Figuring out how all my computer, github and visual code work together is reward
 When playing around with grouping dates, I realized I may be looking at how many teens were arrested on a particular day. 
 Leading the question, what may have been going on to cause such large arrest on particular days? 
 Between two days in August of 2023, over 150 teenagers were arrested by LMPD. What was going on? 
+
+I decided to investigate and see how many unique values are there and it confirms 80 is an anonomal. * 
+
+
+Looking age ages, the age.value_counts tells me the how many of each age group were arrested. 
+
+*Can I figure out what charges are popular per age group?  
+
+379 kids arrested for recieving stolen property 10K or more. 
+298 kids arrested for possession of a handgun first offense. 
