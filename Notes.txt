@@ -18,3 +18,5 @@ Looking age ages, the age.value_counts tells me the how many of each age group w
 
 379 kids arrested for recieving stolen property 10K or more. 
 298 kids arrested for possession of a handgun first offense. 
+
+lambda (gun) looking for how many teen got a gun charge 

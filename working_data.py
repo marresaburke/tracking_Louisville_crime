@@ -16,7 +16,14 @@ charges = teen_data.Charges
 charges.value_counts()
 
 
-Age_v_charges = teen_data.groupby('Age')
-teen_data.columns
+
+
+
+age_char_nums = Age_v_charges.value_counts()
+
+gun_count_data = teen_data.Charges.map(lambda Char: "GUN" in Char).sum()
+
+#num_of_guns = pd.Series([gun_count_data],index = ["gun count"])
+
 
 
