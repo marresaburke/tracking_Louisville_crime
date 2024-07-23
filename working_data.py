@@ -17,8 +17,6 @@ charges.value_counts()
 
 
 
-
-
 age_char_nums = Age_v_charges.value_counts()
 
 gun_count_data = teen_data.Charges.map(lambda Char: "GUN" in Char).sum()
