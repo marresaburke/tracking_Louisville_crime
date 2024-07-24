@@ -1,6 +1,6 @@
 import pandas as pd
 
-teen_data = pd.read_csv('teen_crimes_edit.csv')
+teen_data = pd.read_csv('LMPD_CleanedData_YouthCrimeFull_2023-2024.csv')
 teen_data
 
 teen_data.columns
