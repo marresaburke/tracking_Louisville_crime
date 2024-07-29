@@ -1,38 +1,33 @@
 import pandas as pd
 
-teens_w_guns = pd.read_csv("/Volumes/MyPassportforMac/Code-Louisville/tracking_Louisville_crime/LMPD_JuvenilesWithGunsClean_Jan23-Dec23.csv", index_col = 0)
+teens_w_guns = pd.read_csv("/Volumes/MyPassportforMac/Code-Louisville/tracking_Louisville_crime/LMPD_JuvenilesWithGunsClean_Jan23-Dec23.csv")
 print(teens_w_guns)
 
 
 teens_w_guns.columns
 
-teens_w_guns.Gender.value_counts()
+#How many girls were caught with guns? 
+Gender_counts = teens_w_guns.Gender.value_counts()
+Gender_counts
 
+#How many of each age group? 
+age_groups = teens_w_guns.Age.value_counts()
+age_groups
 
-teens_w_guns.Age.value_counts()
-
-teens_w_guns.Gender.value_counts()
-
+#Race breakdown 
 teens_w_guns.Race.value_counts()
 
-teens_w_guns.sum
-
-388 + 98 + 2 
 
 
-teens_w_guns.Ethnicity.value_counts()
+teens_w_guns.count()
 
-461 + 14 + 14
+
+
+Ethnicity = teens_w_guns.Ethnicity.value_counts()
+Ethnicity
+
 
 teens_w_guns[teens_w_guns.Ethnicity.isnull()]
 
+teens_w_guns.Age.describe()
 
-teens_w_guns.Age.pop
-
-teens_w_guns.Age.value_counts()
-
-teens_w_guns.Ethnicity.value_counts()
-
-teens_w_guns.shape
-
-teens_w_guns.Charges Names.value_counts
