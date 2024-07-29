@@ -4,7 +4,7 @@ teens_w_guns = pd.read_csv("/Volumes/MyPassportforMac/Code-Louisville/tracking_L
 print(teens_w_guns)
 
 
-teens_w_guns.columns 
+teens_w_guns.columns
 
 teens_w_guns.Gender.value_counts()
 
