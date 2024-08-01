@@ -14,7 +14,7 @@ Gender_counts
 age_groups = teens_w_guns.Age.value_counts()
 age_groups
 
-#Race breakdown 
+#Race breakdown , data that's not there. 
 teens_w_guns.Race.value_counts()
 
 
@@ -26,6 +26,7 @@ teens_w_guns.count()
 Ethnicity = teens_w_guns.Ethnicity.value_counts()
 Ethnicity
 
+#missing data - replace with missing info 
 
 teens_w_guns[teens_w_guns.Ethnicity.isnull()]
 

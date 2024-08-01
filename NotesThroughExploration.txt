@@ -20,3 +20,11 @@ Looking age ages, the age.value_counts tells me the how many of each age group w
 298 kids arrested for possession of a handgun first offense. 
 
 lambda (gun) looking for how many teen got a gun charge 
+
+
+Area of interest - Map of area, county outlined in red, context of the story, 
+what about it there is different? sateline image boundaries. Contextualizing. 
+
+interview data - story that goes on with a story point. 
+
+expand on what things mean. 
