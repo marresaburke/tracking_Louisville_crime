@@ -9,8 +9,8 @@ File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name 
 
 ### Instructions: 
 1. Make a folder on your computer to store this repo. 
-2. Clone the repo to your machine in the folder you created in (1).
-3. Create a virtual environment and install the packages in the `requirements.txt`(instructions below).
+2. Create a virtual environment and install the packages in the `requirements.txt`(instructions below).
+3. Clone the repo to your machine in the folder you created in (1).
 4. Run the python file. `python3 youthcrimes.py`
 
 ## Virtual Environment:
