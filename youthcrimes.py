@@ -1,6 +1,7 @@
 import pandas as pd
 
 teens_w_guns = pd.read_csv("/Volumes/MyPassportforMac/Code-Louisville/tracking_Louisville_crime/LMPD_JuvenilesWithGunsClean_Jan23-Dec23.csv")
+guns_demographics = pd.read_csv('LMPD_JuvenilesWithGunsClean_Jan23-Dec23.csv', index_col=0)
 
 
 
