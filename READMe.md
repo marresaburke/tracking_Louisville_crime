@@ -1,17 +1,15 @@
-## Dataset Title: Tracking Louisville Crime
+# Dataset Title: Tracking Louisville Crime
 
 Data Journalist: Marresa Burke (502)379-9365, marresa.burke@wave3.com
 
 File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name system identifies the agency where the data came from, general information  the set contains and the time period. 
 
 ## Instructions: 
-
     1. Clone the repo to your machine.
-    1. Create a virtual environment and install the packages in the `requirements.txt` file (instructions below). 
-    1. Run the python file. `python youthcrimes.py` 
+    2. Create a virtual environment and install the packages in the `requirements.txt`(instructions below).
+    3. Run the python file. `python3 youthcrimes.py`
 
-## Virtual Environment: 
-
+## Virtual Environment:
     1.  After you've cloned the repository to your computer, navigate to your folder in git/Terminal. 
     2.  Create a virtual environment in the project folder. `python3 -m venv venv`
     3.  Activate the virtual environment. `source venv/bin/activate`
@@ -25,9 +23,9 @@ I. Introduction
     1.  Objective: By following the few details available in Louisville teen arrest reports for serious crimes like assaults, homicides, gun possessions, etc., understanding the demographic of those arrested to support organizations tasked with descreasing violence among young age groups. 
     2.  Tools and Technologies: Pandas, Python, Jupyter Notebook, Tableau Public. 
     3.  Goals: 
-        a.  Perform statistical analysis of teens arrested for gun possessions
-        b.  Make findings clear and concise 
-        c.  Contextualizing and visualizing the problem of teens crime in Louisville 
+        - Perform statistical analysis of teens arrested for gun possessions
+        - Make findings clear and concise 
+        - Contextualizing and visualizing the problem of teens crime in Louisville 
 
 II. Visual Appeal and Design Consistency 
     a. Understanding the Problem
