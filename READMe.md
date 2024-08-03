@@ -2,12 +2,12 @@
 
 Data Journalist: Marresa Burke (502)379-9365, marresa.burke@wave3.com
 
-File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name system identifies the agency where the data came from, general information  the set contains and the time period. 
-
-# Overview: 
+## Overview: 
 This project analyzes the Louisville Metro Police Department's records for kids aged 13 to 17 who have been arrested for serious crimes such as possession of a gun. The findings from thsi analysis can used as a tool for non-profits and group violence intervention programs to better target their efforts to specifc age groups, identify trends, and find additional preventative measures. 
 
-## Instructions: 
+File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name system identifies the agency where the data came from, general information  the set contains and the time period. 
+
+### Instructions: 
 1. Clone the repo to your machine.
 2. Create a virtual environment and install the packages in the `requirements.txt`(instructions below).
 3. Run the python file. `python3 youthcrimes.py`
