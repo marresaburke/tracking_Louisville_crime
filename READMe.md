@@ -2,18 +2,21 @@ Dataset Title: Tracking Louisville Crime
 
 Data Journalist: Marresa Burke (502)379-9365, marresa.burke@wave3.com
 
-File Naming Convention: Agency_SummarizationOfDataSet_YearRange.csv 
+File Naming Convention: Agency_SummarizationOfDataSet_YearRange.csv This name system identifies the agency where the data came from, general information  the set contains and the time period. 
 
-My data is coming from Louisville Metro Police Department. This name system identifies the agency where the data came from, general information  the set contains and the time period. 
+Instructions: 
 
+    1. Clone the repo to your machine. 
+    2. Create a virtual environment and install the packages in the requirements.txt file (instructions below). 
+    3. Run the ...... file. python3 
 
+Virtual Environment: 
 
-
-Attributes: 
-
-Codes for crimes? 
-individual offenders identifier? 
-Date Categorization? 
+    1. After you've cloned the repository to your computer, navigate to your folder in git/Terminal. 
+    2. Create a virtual environment in the project folder. python3 -m venv venv 
+    3. Activate the virtual environment. source venv/bin/activate 
+    4. Install the required packages. pip install -r requirements.txt 
+    5. When you are done, deactivate the virtual environment. 
 
 
 Project Outline: Analyzing Louisville Crime Data involving Teenagers
