@@ -2,32 +2,32 @@
 
 Data Journalist: Marresa Burke (502)379-9365, marresa.burke@wave3.com
 
-File Naming Convention: Agency_SummarizationOfDataSet_YearRange.csv This name system identifies the agency where the data came from, general information  the set contains and the time period. 
+File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name system identifies the agency where the data came from, general information  the set contains and the time period. 
 
 ## Instructions: 
 
     1. Clone the repo to your machine.
-    1. Create a virtual environment and install the packages in the 'requirements.txt' file (instructions below). 
-    1. Run the ...... file. 'python3 ....'
+    1. Create a virtual environment and install the packages in the `requirements.txt` file (instructions below). 
+    1. Run the python file. `python youthcrimes.py` 
 
 ## Virtual Environment: 
 
-    1. After you've cloned the repository to your computer, navigate to your folder in git/Terminal. 
-    2. Create a virtual environment in the project folder. 'python3 -m venv venv'
-    3. Activate the virtual environment. 'source venv/bin/activate' 
-    4. Install the required packages. 'pip install -r requirements.txt'
-    5. When you are done, deactivate the virtual environment. 
+    1.  After you've cloned the repository to your computer, navigate to your folder in git/Terminal. 
+    2.  Create a virtual environment in the project folder. `python3 -m venv venv`
+    3.  Activate the virtual environment. `source venv/bin/activate`
+    4.  Install the required packages. `pip install -r requirements.txt`
+    5.  When you are done, deactivate the virtual environment. 
 
 
 ### Project Outline: Analyzing Louisville Crime Data involving Teenagers
 
 I. Introduction
-    a. Objective: By following the few details available in Louisville teen arrest reports for serious crimes like assaults, homicides, gun possessions, etc., understanding the demographic of those arrested to support organizations tasked with descreasing violence among young age groups. 
-    b. Tools and Technologies: Pandas, Python, Jupyter Notebook, Tableau Public. 
-    c. Goals: 
-        1. Perform statistical analysis of teens arrested for gun possessions
-        2. Make findings clear and concise 
-        3. Contextualizing and visualizing the problem of teens crime in Louisville 
+    1.  Objective: By following the few details available in Louisville teen arrest reports for serious crimes like assaults, homicides, gun possessions, etc., understanding the demographic of those arrested to support organizations tasked with descreasing violence among young age groups. 
+    2.  Tools and Technologies: Pandas, Python, Jupyter Notebook, Tableau Public. 
+    3.  Goals: 
+        a.  Perform statistical analysis of teens arrested for gun possessions
+        b.  Make findings clear and concise 
+        c.  Contextualizing and visualizing the problem of teens crime in Louisville 
 
 II. Visual Appeal and Design Consistency 
     a. Understanding the Problem
