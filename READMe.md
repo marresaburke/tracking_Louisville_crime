@@ -8,12 +8,13 @@ This project analyzes the Louisville Metro Police Department's records for kids 
 File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name system identifies the agency where the data came from, general information  the set contains and the time period. 
 
 ### Instructions: 
-1. Clone the repo to your machine.
-2. Create a virtual environment and install the packages in the `requirements.txt`(instructions below).
-3. Run the python file. `python3 youthcrimes.py`
+1. Make a folder on your computer to store this repo. 
+2. Clone the repo to your machine in the folder you created in (1).
+3. Create a virtual environment and install the packages in the `requirements.txt`(instructions below).
+4. Run the python file. `python3 youthcrimes.py`
 
 ## Virtual Environment:
-1.  After you've cloned the repository to your computer, navigate to your folder in git/Terminal. 
+1.  After you've cloned the repository to your computer, navigate to your folder in your Terminal. 
 2.  Create a virtual environment in the project folder. `python3 -m venv venv`
 3.  Activate the virtual environment. `source venv/bin/activate`
 4.  Install the required packages. `pip install -r requirements.txt`
