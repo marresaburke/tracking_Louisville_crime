@@ -10,11 +10,13 @@ File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name 
 Some information in the date is privileged/or connected to the department's internal filing system. Before I can use my data, I had to define each column, figure out it's relevance for this project and if it's redundant. 
 
 ### Dictionary of terms:
-- `Date`: Arrest date 
-- `Charge`: Crime listed on arrest report 
+- `Date`: Arrest date.
+- `Charge`: Crime listed on arrest report.
 - `Charge Sequence Number`:  A number that will be either the case number associated with that person's charges, or a unique serial number assigned by the agency. If the agency uses a case number, then the number will change for each new case. If it's a serial/identifying number, it will remain the same.
-- `Arrest #`: a way for authorities to track an arrested person
-- 
+- `Arrest #`: a way for authorities to track an arrested person.
+- `Age`: Age at time of arrest.
+- `Gender`: Male or Female 
+- `Race`: 
 
 ## Instructions: 
 1. Make a folder on your computer to store this repo. 
