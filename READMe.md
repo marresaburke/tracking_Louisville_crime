@@ -12,7 +12,7 @@ Some information in the date is privileged/or connected to the department's inte
 ### Dictionary of terms:
 - `Date`: Arrest date.
 - `Charge`: Crime listed on arrest report.
-- `Charge Sequence Number`:  A number that will be either the case number associated with that person's charges, or a unique serial number assigned by the agency. If the agency uses a case number, then the number will change for each new case. If it's a serial/identifying number, it will remain the same.
+- `Charge Sequence Number`: The unique numerical identifier for each charge in a case with multiple charges.
 - `Arrest #`: a way for authorities to track an arrested person.
 - `Age`: Age at time of arrest.
 - `Gender`: Male or Female 
