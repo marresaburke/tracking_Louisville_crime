@@ -9,14 +9,6 @@ File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name 
 
 Some information in the date is privileged/or connected to the department's internal filing system. Before I can use my data, I had to define each column, figure out it's relevance for this project and if it's redundant. 
 
-### Dictionary of terms:
-- `Date`: Arrest date.
-- `Charge`: Crime listed on arrest report.
-- `Charge Sequence Number`: The unique numerical identifier for each charge in a case with multiple charges.
-- `Arrest #`: a way for authorities to track an arrested person.
-- `Age`: Age at time of arrest.
-- `Gender`: Male or Female 
-- `Race`: 
 
 ## Instructions: 
 1. Make a folder on your computer to store this repo. 
@@ -26,8 +18,8 @@ Some information in the date is privileged/or connected to the department's inte
 
 ## Virtual Environment:
 1.  After you've cloned the repository to your computer, navigate to your folder in your Terminal. 
-2.  Create a virtual environment in the project folder. `python3 -m venv venv`
-3.  Activate the virtual environment. `source venv/bin/activate`
+2.  Create a virtual environment in the project folder. `python3 -m venv venv` or `python -m venv venv`
+3.  Activate the virtual environment. `source venv/bin/activate` or `source venv/Scripts/activate`
 4.  Install the required packages. `pip install -r requirements.txt`
 5.  When you are done, deactivate the virtual environment. 
 
