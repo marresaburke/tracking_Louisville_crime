@@ -9,41 +9,42 @@ teen_data = teen_data.drop(columns=['Charges Sequence #', 'Arrest #']) #Remove u
 
 guns_demographics = pd.read_csv('LMPD_JuvenilesWithGunsClean_Jan23-Dec23.csv')
 guns_demographics = guns_demographics.drop(columns=['Agency Name', 'Gender', 'Race', 'Ethnicity', 'Charges Classification','Arrest Type']) #Remove unwanted info
-#Cleaning data by dates 
+#Cleaning/Sorting data by dates 
 
 month_dict = {1:'January', 2:'February', 3:'March', 4:'April', 5:'May', 6:'June',7:'July',8:'August',9:'September',  10:'October',11:'November',12:'December'}
 
 teen_date_values = pd.DatetimeIndex(teen_data["Date"]) #convert Date column
 teen_data['Year'] = teen_date_values.year #seperate the year
 teen_data['Month'] = teen_date_values.month #seperate the month 
-teen_data['Month'] = teen_data['Month'].map(month_dict)
+teen_data['Month'] = teen_data['Month'].map(month_dict) #applying month dictionary to column
 
 gun_date_values = pd.DatetimeIndex(guns_demographics['Date']) #convert gun Date column
 
 guns_demographics['Year'] = gun_date_values.year #separate the year 
 guns_demographics['Month'] = gun_date_values.month #seperate the month 
 
-guns_demographics['Month'] = guns_demographics['Month'].map(month_dict)
+guns_demographics['Month'] = guns_demographics['Month'].map(month_dict) #applying month dictionary to column
 
 
 #sorted by date range
 dates_teen_full_df = teen_data[(teen_data['Date'] > '2023-01-01') & (teen_data['Date'] < '2023-12-31')]
 dates_gun_full_df = guns_demographics[(guns_demographics['Date'] > '2023-01-01') & (guns_demographics['Date'] < '2023-12-31')]
 
+#Sort crimes by months to build dataframes to merge
+list_of_months = ['January', 'February', 'March','April','May', 'June','July','August', 'September', 'October','November', 'December']
 
-dates_gun_full_df
+crimes_per_month = dates_teen_full_df.Month.value_counts() #how many teens arrested for serious crimes each month
+crimes_per_month.index = pd.CategoricalIndex(crimes_per_month.index, categories=list_of_months, ordered=True)
+crimes_per_month = crimes_per_month.sort_index()
+total_crime_final = pd.DataFrame({'Total Teen Arrests': crimes_per_month})
 
-dates_teen_full_df
+guns_per_month = dates_gun_full_df.Month.value_counts() #how many teens arrested for gun possession charges
+guns_per_month.index = pd.CategoricalIndex(guns_per_month.index, categories=list_of_months, ordered=True)
+guns_per_month= guns_per_month.sort_index()
+gun_final = pd.DataFrame({'Gun Possession Charges': guns_per_month})
+final = pd.merge(total_crime_final, gun_final, on='Month')
+
+final.to_csv('Teen_crimes_comparison.csv')
 
 
-#filter full teen data with charges only included in gun charges
-handgun = ['POSS HANDGUN BY MINOR 1ST OFFENSE 527.100 52206 520','RECEIVING STOLEN PROPERTY (FIREARM) 514.110 28020 280', 'CARRYING A CONCEALED DEADLY WEAPON 527.020 01501 520','POSS HANDGUN BY MINOR 2ND OR > 527.100 52205 520', 'TBUT OR DISP FIREARM 514.030 23100 23H', 'POSSESSION OF HANDGUN BY CONVICTED FELON 527.040 52197 520','UNLAWFUL POSSESSION OF WEAPON ON SCHOOL PROPERTY 527.070 52204 520', 'UNLAWFULLY PROV/PERMIT MINOR TO POSSESS HANDGUN 527.110 52203 520','USING RESTRICTED AMMO DURING A FELONY (NO SHOTS) 527.080(2)(A) 02549 520', 'POSSESSION OF DEFACED FIREARM 527.050 01504 520','POSSESSION OF FIREARM BY CONVICTED FELON 527.040 52196 520']
-gun_filter =teen_data[teen_data['Charges'].isin(handgun)]
-gun_filter
-
-##Building final dataframe 
-
-#age is rows 
-#months is columns 
-#data is date and total number of charges vs. gun charges 
  
