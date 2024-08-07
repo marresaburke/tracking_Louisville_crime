@@ -28,7 +28,6 @@ III. Data Acquisition and Cleaning
 
 IV. Data Analysis and Visualization 
     a. Visualizations 
-        1. Create a Tableau dashboard to display data showing: 
-            i. 
-            ii. 
-            iii.
+        1. Create a Tableau dashboard: 
+            i. Data shows monthly trends with gun possession and teen crimes. Most teen arrest are in August and most gun possession arrests are in February. The data can be used to start diving deeper into programs and outreach needed before school during summer. 
+
