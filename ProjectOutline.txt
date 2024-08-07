@@ -21,9 +21,9 @@ III. Data Acquisition and Cleaning
         1. Read into two data files: Requested and loaded records of kids aged 13 to 17 arrested from January 2023 to Decemeber 2023 and demographic data of the teens arrested for gun possession (excel)
     b. Data Cleaning and Merging 
         1. Cleaned the column names up in Mac Pages, noted places with missing data, narrow and maintained the focus of the project in this process.
-        2. Explored and played around with data in various sheets to learn more about my data
-        3. Merge data on the arrest records to count offenders and people may be charged with more than one crime.
-        4. Calculate new data like the demographics of age groups arrested for gun possession. 
+        2. Explored and played around with data to find commonalities 
+        3. Merge data on the months to see if there are trends depending on the time of year
+        4. Calculate new data to see the differences between month and number of kids arrested for serious crimes vs. just those arrested for gun possession. 
 
 
 IV. Data Analysis and Visualization 

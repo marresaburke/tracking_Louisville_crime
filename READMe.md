@@ -7,7 +7,8 @@ This project analyzes the Louisville Metro Police Department's records for kids 
 
 File Naming Convention: `Agency_SummarizationOfDataSet_YearRange.csv` This name system where the data came from, general information  the set contains and the time period. 
 
-Some information in the date is privileged/or connected to the department's internal filing system. Before I can use my data, I had to define each column, figure out it's relevance for this project and if it's redundant. 
+Some information in the date is privileged/or connected to the department's internal filing system. This project merges two data sets that contain different details about the teens arrests. The cleaning process including searching for blanks and if the blanks in the categories for this analysis. 
+
 
 
 ## Instructions: 
