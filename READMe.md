@@ -27,5 +27,7 @@ https://public.tableau.com/views/TrackingTeenCrimeData/Dashboard1?:language=en-U
 5.  When you are done, deactivate the virtual environment. 
 
 
+## Notes Through Exploration
 
+- This file identifies theories and organizes the data set for more manipulations.
 
