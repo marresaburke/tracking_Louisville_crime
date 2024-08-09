@@ -1,4 +1,4 @@
-Here"s are the notes I will keep about the data as I explore the data. 
+Here"s are the notes I will keep as I explore the data and theories to try later
 
 I started by getting my self familiar with the data. Trying to figure out and rationalize what the data's coding system and how this would play into how I explore and manipulate the data. 
 Cleaning up the Columns - each included "Arrest" some multiple times.
@@ -28,3 +28,14 @@ what about it there is different? sateline image boundaries. Contextualizing.
 interview data - story that goes on with a story point. 
 
 expand on what things mean. 
+
+
+#other theories while cleaning and future ideas 
+
+#filter full teen data with charges only included in gun charges
+# WHAT IS THIS SHOWING THIS IS TO PICK UP LATER - WHAT DOES THIS MEAN IN RELATIONSHIP TO THE DATASET 
+#handgun = ['POSS HANDGUN BY MINOR 1ST OFFENSE 527.100 52206 520','RECEIVING STOLEN PROPERTY (FIREARM) 514.110 28020 280', 'CARRYING A CONCEALED DEADLY WEAPON 527.020 01501 520','POSS HANDGUN BY MINOR 2ND OR > 527.100 52205 520', 'TBUT OR DISP FIREARM 514.030 23100 23H', 'POSSESSION OF HANDGUN BY CONVICTED FELON 527.040 52197 520','UNLAWFUL POSSESSION OF WEAPON ON SCHOOL PROPERTY 527.070 52204 520', 'UNLAWFULLY PROV/PERMIT MINOR TO POSSESS HANDGUN 527.110 52203 520','USING RESTRICTED AMMO DURING A FELONY (NO SHOTS) 527.080(2)(A) 02549 520', 'POSSESSION OF DEFACED FIREARM 527.050 01504 520','POSSESSION OF FIREARM BY CONVICTED FELON 527.040 52196 520']
+#gun_filter =teen_data[teen_data['Charges'].isin(handgun)]
+#gun_filter.set_index('Date') 
+
+#Note DATE SETS ALMOST MATCHED NUMBERS - WHAT IS THE DIFFERENCE AND WHY? 
