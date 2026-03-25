@@ -1,0 +1,2 @@
+Notes through Exploration 
+    Need to .drop(columns=['defendants.person_id', 'defendants.master_person_id', 'arrest_number'])

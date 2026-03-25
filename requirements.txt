@@ -5,4 +5,4 @@ datetime
 sorted-months-weekdays
 sort-dataframeby-monthorweek
 ipykernel 
-pypdf 
+pypdf2
